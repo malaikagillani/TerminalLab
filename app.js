@@ -47,7 +47,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-mongoose.connect( "mongodb+srv://user1:rabia1999@productcrud.tjp9r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
+mongoose.connect( "mongodb+srv://admin:muqadas123@cluster0.krlud.mongodb.net/myFirstDatabase?retryWrites=true&w=majoritymongodb+srv://suhaibqanooni:humtum804@students.7tcmb.mongodb.net/sohaib-terminal?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
