@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #064d69;
 }
 * {
   margin: 0;
@@ -20,7 +20,7 @@ a {
 }
 .star-wrapper a {
   font-size: 4em;
-  color: #fff;
+  color: rgb(128, 9, 9);
   text-decoration: none;
   transition: all 0.5s;
   margin: 4px;
