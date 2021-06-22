@@ -1,0 +1,20 @@
+extend ../layout
+block content 
+    h1 products
+    form(action="/products/add",method="post")
+        .form-group
+            label(for="name") Name
+            input#name(type="text", class="form-control", name="name")
+        .form-group
+            label(for="price") Price
+            input#gender(type="text", class="form-control", name="price")
+        .form-group
+            label(for="description") Description 
+            input#des(type="text", class="form-control", name="description")
+        .form-group
+            label(for="rating") Rating 
+            input#rating(type="text", class="form-control", name="rating")
+      
+        input(type="submit", class="btn btn-info")
+
+            
