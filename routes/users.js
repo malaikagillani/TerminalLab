@@ -29,7 +29,7 @@ router.post('/login', async function(req, res, next) {
     req.session.user=user;
     return res.redirect("/products");
   } catch (error) {
-    res.send("error");
+    res.send("ERROR");
   }
   
 });
